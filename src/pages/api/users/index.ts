@@ -6,9 +6,7 @@ import { NextApiRequest, NextApiResponse } from "next";
 // Nesxt Auth (Social)
 // Cognito, Auth0  => Autentication as a Server
 
-
-
-
+// Serveless
 export default (request: NextApiRequest, response: NextApiResponse) => {
   const users = [
     { id: 1, name: "Marcos" },
@@ -19,4 +17,3 @@ export default (request: NextApiRequest, response: NextApiResponse) => {
   return response.json(users);
 };
 
-// Serveless
