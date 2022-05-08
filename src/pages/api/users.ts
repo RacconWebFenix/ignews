@@ -1,5 +1,14 @@
 import { NextApiRequest, NextApiResponse } from "next";
 
+// Estratégias de Autenticação
+
+// JWT (Storage)
+// Nesxt Auth (Social)
+// Cognito, Auth0  => Autentication as a Server
+
+
+
+
 export default (request: NextApiRequest, response: NextApiResponse) => {
   const users = [
     { id: 1, name: "Marcos" },
